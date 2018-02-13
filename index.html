@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The HackTrain</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="css/form.css" rel="stylesheet" >
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+              <div id="navlogo">
+                <a class="page-scroll" href="#myCarousel">
+                  <img src="img/logo-side.png"/>
+                </a>
+              </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="float:right">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#together">Our Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#forces">Partners</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#clients">Clients</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li style="background-color:#00cfa1; color:white">
+                        <a target="_blank" alt="HackTrain Hackathon" href="hackathon/index.html">HackTrain Hackathon</a>
+                    </li>
+                    <!-- <li>
+                      <div id="hackathon" class="button-nav">
+                        <a target="_blank" alt="HackTrain Hackathon" href="http://uk.hacktrain.com/" class="btn btn-default btn-lg"> <span style="font-size:15px" class="network-name">HackTrain Hackathon</span></a>
+                      </div>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <a href="#about"><div class="fill" style="background-image:url('img/carousel/logo-carousel.png');"></div></a>
+                <div class="carousel-caption">
+                    <h2 id="carousel-text">Driving forward innovation in the rail industry.</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal"><div class="fill" style="background-image:url('img/carousel/chiltern.png');"></div></a>
+                <div class="carousel-caption">
+                    <h2 id="carousel-text">Solving the industry's greatest challenges.</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal"><div class="fill" style="background-image:url('img/carousel/vtec.png');"></div></a>
+                <div class="carousel-caption">
+                    <h2 id="carousel-text">Bringing cutting-edge technology to rail.</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <a href="http://uk.hacktrain.com/"><div class="fill" style="background-image:url('img/carousel/hackathon.png');"></div></a>
+                <div class="carousel-caption">
+                    <h2 id="carousel-text">Apply to attend one of our hackathons today.</h2>
+                    <div class="buttons">
+                          <a target="_blank" alt="HackTrain UK" href="uk/index.html" class="btn btn-default btn-lg">
+                            <span style="font-size:1em" class="network-name">HackTrain UK</span>
+                          </a>
+                          <a target="_blank" alt="HackTrain HK" href="hk/index.html" class="btn btn-default btn-lg">
+                            <span style="font-size:1em" class="network-name">HackTrain HK</span>
+                          </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+  <section class="arrow">
+    <div align="center">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-4 col-md-12">
+
+          </div>
+          <div class="col-md-4 col-md-12">
+            <a href="#about" class="btn btn-circle page-scroll">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+          </div>
+          <div class="col-md-4 col-md-12">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Header -->
+
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"><br>
+                    <h2>HackTrain is digitally transforming the rail industry.</h2><br><br>
+                    <p class="lead">We introduce innovations to the rail industry all the way from conception, to trial and installation.</p>
+                    <br>
+                    <a target="_blank" href="#portfolioModalTeam" data-toggle="modal" class="btn btn-default btn-lg">
+                      <span style="font-size:1em; color:white" class="network-name">Meet the team</span>
+                    </a>
+
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section id="press" class="client-list" style="padding-bottom:30px">
+        <div id="client-list" class="container">
+            <div class="row text-center">
+                <div class="col-md-12"><br>
+                    <h2 style="color:white">Press</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="service-item">
+                            <a target="_blank" href="http://www.theguardian.com/politics/2015/nov/19/transport-hackathon-hacktrain-uk-railways">
+                              <img class="client-list" src="img/press/guardian.png"/>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="service-item">
+                              <a target="_blank" href="https://www.ft.com/content/1553f5ac-8ea2-11e5-8be4-3506bf20cc2b">
+                                <img class="client-list" src="img/press/ft.png"/>
+                              </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="service-item">
+                              <a target="_blank" href="http://www.railpro.co.uk/news/hacktrain-starts-today">
+                                <img class="client-list" src="img/press/railpro.png"/>
+                              </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="service-item">
+                              <a target="_blank" href="http://railway-news.com/hacktrain-comes-to-london/">
+                                <img class="client-list" src="img/press/railwaynews.png"/>
+                              </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-4 col-sm-12">
+                          <div class="service-item">
+                            <a target="_blank" href="http://www.railengineer.uk/2016/03/24/railtech-and-the-hacktrain-accelerator/">
+                              <img class="client-list" src="img/press/railengineer.png"/>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-12">
+                          <div class="service-item">
+                            <a target="_blank" href="http://www.techworld.com/startups/how-hacktrain-is-bringing-startup-approach-solving-uk-rail-industrys-biggest-problems-3639307/">
+                              <img class="client-list" src="img/press/techworld.png"/>
+                            </a>
+                          </div>
+                      </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="service-item">
+                              <a target="_blank" href="http://www.passengertransport.co.uk/2016/06/hacktrain-the-force-is-with-them/">
+                                <img class="client-list" src="img/press/passengertransport.png"/>
+                              </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+
+    <section id="portfolio" class="services">
+        <div id="services" class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"><br><br>
+                    <h2>Services</h2>
+                    <!-- <hr class="star-primary"> -->
+                    <hr class="small">
+
+                </div>
+            </div><br>
+            <div style="text-align: center">
+              <p class="lead">HackTrain provides consultancy and digital transformation services as well as marketing opportunites for technology event sponsorship.</p>
+            </div>
+
+              <div class="row">
+
+                <div class="col-md-5" id="cards">
+                  <a href="#portfolioModala" data-toggle="modal">
+                    <div class="service-left">
+                      <div>
+                        <img src="img/services-icons/events.png">
+                      </div>
+                      <div class="service-text">
+                        <h3>Technology Events</h3>
+                        <p>Our events draw a wide range of professionals from accross the industry.</p>
+                        <span style="font-size:1em; color:white" class="btn btn-default btn-lg">See more</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-md-2">
+                </div>
+
+                <div class="col-md-5" id="cards">
+                  <a href="#portfolioModalb" data-toggle="modal">
+                    <div class="service-right">
+                      <div>
+                        <img src="img/services-icons/trial.png">
+                      </div>
+                      <div class="service-text">
+                        <h3>T.R.I.A.L.</h3>
+                        <p>This service provides a fast-paced framework to solving key challenges in rail.</p>
+                        <p style="font-size:1em; color:white" class="btn btn-default btn-lg">See more</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <div class="row">
+
+              <div class="col-sm-5" id="cards">
+                <a href="#portfolioModalc" data-toggle="modal">
+                  <div class="service-left">
+                    <div>
+                      <img src="img/services-icons/reports.png">
+                    </div>
+                    <div class="service-text">
+                      <h3>Industry Reports</h3>
+                      <p>We research and construct reports on technology and innovation the rail industry.</p>
+                      <span style="font-size:1em; color:white" class="btn btn-default btn-lg">See more</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-sm-2">
+              </div>
+
+              <div class="col-sm-5" id="cards">
+                <a href="#portfolioModald" data-toggle="modal">
+                  <div class="service-right">
+                    <div>
+                      <img src="img/services-icons/consultancy.png">
+                    </div>
+                    <div class="service-text">
+                      <h3>Consultancy Services</h3>
+                      <p>We help your organisation understand and grow in-line with the pace of cutting-edge technology.</p>
+                      <span style="font-size:1em; color:white" class="btn btn-default btn-lg">See more</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+
+        </div><br><br><br>
+    </section>
+
+    <!-- Together -->
+    <section>
+      <aside class="callout" id="together">
+        <div class="text-vertical-center">
+          <h1>Driving innovation within the rail industry. Together.</h1>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Portfolio /pro-->
+    <section id="portfolio">
+        <div id="ourwork" class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"><br><br>
+                    <h2>Our Work</h2>
+                    <hr class="star-primary">
+                </div>
+            </div><br>
+            <div style="text-align: center">
+              <p class="lead">Our past T.R.I.A.L. projects have improved station enhancement, customer experience and operational efficiency.</p>
+            </div><br><br>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i><h3>CCTV and Video Sensors</h3></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/vivacity/1.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <i><h3>Counting Passengers Using "POP" Devices</h3></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/pointr/5.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <i><h3>Ticket Vending Machines</h3></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/vivacity/2.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <i><h3>Indoor Navigation</h3></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/pointr/2.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <i><h3>London Bridge Multi-solution</h3></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/pointr/4.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <i><h3>Event Finder</h3></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/igeolise/2.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <!-- <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <i><h3>Wireless Power-charging in Stations</h3></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/powermat/3.png" class="img-responsive" alt="">
+                    </a>
+                </div> -->
+                <!-- <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <i><h3>Staff Management</h3></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/sirenum/2.png" class="img-responsive" alt="">
+                    </a>
+                </div> -->
+                <!-- <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <i><h3>Delay Repay</h3></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/raildelay/2.png" class="img-responsive" alt="">
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- modal pop-up -->
+    <section>
+
+      <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                  <div class="lr">
+                      <div class="rl">
+                      </div>
+                  </div>
+              </div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2">
+                          <div class="modal-body">
+                              <h2>CCTV and Video Sensors</h2>
+                              <hr class="star-primary">
+                              <img src="img/projects/vivacity/5.png" class="img-responsive img-centered" alt="">
+
+                              <h3>Installation of video cameras on Chiltern train door lintels to enable real-team passenger counting.</h3>
+
+                              <p>The initial step for this trial consisted of analysing existing CCTV footage, as this was the fastest method of determining whether Vivacity Lab’s analytics technology could successfully count the number of passengers on the train.</p>
+
+                              <p>The team hit an initial barrier where the footage extracted from the existing video feed consisted of four individual camera feeds merged into a single stream. The resulting video rapidly cut between frames of each of the cameras and almost made the data impossible to analyse. This was a clear example of the nature of existing suppliers in the industry; it shows how they have closed down their technology and obfuscated processes surrounding data manipulation, making it hard for external suppliers and new players to integrate it into their systems.</p>
+
+                              <p>Vivacity processed the compiled video data and separated it into four distinct video feeds. Once the data had been prepared correctly, they used custom-designed computer vision analytics software to count the number of passengers disembarking and boarding the train.</p>
+
+                              <p>Ultimately the process of extracting the footage, separating out the frames and analysing them took too long for it to be useful for passengers. A different approach was required.</p>
+
+                              <p>Fortunately, the newest fleet that Chiltern Railways were operating at the time was owned by their respective owning group. This allowed for a greater deal of freedom to make modifications on their trains. Vivacity was allowed to drill holes above the carriage doors for the purpose of installing their higher-quality video sensors. The data collected by their sensors was analysed and fed back to Chiltern in the form of a report and live database. The trial successfully yielded accurate enough results for Chiltern.</p>
+                              <ul class="list-inline item-details">
+                                  <li>Client:
+                                      <strong><a href="#">Chiltern Railways</a>
+                                      </strong>
+                                  </li>
+                                  <li>Date:
+                                      <strong><a href="#">May 2016</a>
+                                      </strong>
+                                  </li>
+                                  <li>Service:
+                                      <strong><a href="#">Hardware Integration</a>
+                                      </strong>
+                                  </li>
+                              </ul>
+                              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                  <div class="lr">
+                      <div class="rl">
+                      </div>
+                  </div>
+              </div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Using POP-Devices</h2>
+                            <hr class="star-primary">
+                            <img src="img/projects/pointr/1.png" class="img-responsive img-centered" alt="">
+
+                            <h3>Installation of custom POP-devices in c2c trains to enable real-time passenger counting using bluetooth and 3G signals.</h3>
+
+                            <p>National Express, c2c and Pointr approached the passenger counting challenge using Pointr’s proprietary Point of Presence (‘POP’) devices. The POP’s count phones using bluetooth and 3G signals within a specified area.</p>
+
+                            <p>The goal was to provide an accurate count of the number of passengers travelling on the train in real time with the understanding that this information could be eventually to the passengers via an app. The data would also provide insights to c2c staff via a dashboard.</p>
+
+                            <p>When approaching the initial trial, Pointr ran into three main barriers: power, connectivity and regulations. Once these issues were addressed, an initial trial was carried out with a prototype POP device that was manually carried throughout a journey to gather the necessary data.</p>
+
+                            <p>The data gathered provided insightful information into train passenger count. There were several spikes identified when other trains were passing by and the carriage went through residential areas.</p>
+
+                            <p>Pointr refined their algorithms to normalise the data and discard the ‘noise’ that was being generated. They then provided the data via a dashboard for the TOC to be able to see passenger levels during the trial journey.</p>
+
+                            <p>Since then Pointr has made several improvements to their POP-devices. This included building custom battery packs, 3G antennas, and device containers.</p>
+
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="#">c2c Rail</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="#">May 2016</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="#">Hardware Integration</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Ticket Vending Machines</h2>
+                          <hr class="star-primary">
+                          <img src="img/projects/vivacity/2.png" class="img-responsive img-centered" alt="">
+
+                          <h3>Remote analysis of Swindon Rail Station ticket office CCTV footage to measure staff utilisation and queue times.</h3>
+
+                          <p>This trial involved analysing CCTV footage of the ticket office of Swindon Rail Station which was sent to Vivacity Labs in the form of DVDs, to see whether they could provide metrics on staff utilisation and queueing times over a 1 hour and 52 minute period, from 07:15 to 09:07.</p>
+
+                          <p>Analysing the footage was more challenging than initially expected, as the videos which were provided came in a large, non-standardised format which meant time had to be spent finding a solution to extracting individual frames from this format in order to carry out the automated analysis. This was a clear example of the nature of existing suppliers in the industry; it shows how they have closed down their technology and obfuscated processes surrounding data manipulation, making it hard for external suppliers and new players to integrate it into their systems.</p>
+
+                          <p>Vivacity then had to train their machine learning detector to recognise the shapes of people which would be analysed in this footage. This was required to adapt to the angle and setting of the video feed, which Vivacity had not worked with before, however for future similar sites of this nature additional training would not needed.</p>
+
+                          <p>Vivacity then processed the footage and analysed each of the three staff booths individually, checking for staff presence and customer serving time. They also analysed two of the queueing areas for these ticket booths, checking for queue length and waiting times.</p>
+
+                          <p>Staffing times and customer waiting times were successfully compiled by their computer vision systems. The system was validated over an 8 minute period of this footage, and achieved an accuracy of over 97% across all three booths.</p>
+
+                          <p>The system measured a total staff time across all the booths of 4 hours and 18 minutes, and a total time serving customers of 1 hour and 22 minutes, thus a 32% staff utilisation.</p>
+
+                          <p>The system also measured a total queueing time for customers during this period of 5 minutes, thus 6% of customer time spent queueing.</p>
+
+                          <p>An additional metric, which was counting the length of queues, was not possible to do accurately due to occlusion which is a result of the low camera angle of the video feed. In order to have more accurate and detailed data on such metrics, installation of Vivacity Labs’ own video sensor would be required at the site.</p>
+
+                          <p>The main conclusions to draw from these results is that staff were heavily underutilised over this 1 hour and 52 minute period resulting in very little queue time for customers and high idle time for staff. This data was sent back to GWR in the form of a report detailing the process and extrapolated results.</p>
+
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="#">GWR</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="#">May 2016</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="#">Hardware Integration</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Indoor Navigation</h2>
+                          <hr class="star-primary">
+                          <img src="img/projects/pointr/3.png" class="img-responsive img-centered" alt="">
+
+                          <h3>Deployment of low-energy bluetooth devices across King’s Cross and Peterborough stations to enable Virgin Trains customers to navigate inside the stations.</h3>
+
+                          <p>This trial involved installing low energy bluetooth beacons across KX and Peterborough station that tracked the movement of customers within the station using Bluetooth signals to enable intelligent wayfinding for passengers.</p>
+
+                          <p>Agreeing the trial with Virgin Trains for Pointr was very easy. There was a clear goal and expectation from Virgin in regards to what they wanted for their passengers.</p>
+
+                          <p>The difficult parts were filling out the necessary paperwork required by Network Rail to gain access to the site for installation purposes. 150 pages worth of documents needed to be completed by the Pointr team.</p>
+
+                          <p>Once the paperwork was finished, it was approved within a record 48-hours by Virgin Trains and Network Rail. Pointr then requested maps of KX station in order to redesign them for their indoor navigation app. This process proved to be incredibly time consuming as no one in the NR KX or Virgin team seemed to have access to them.</p>
+
+                          <p>3 weeks later, the maps were finally obtained and the team redesigned them immediately. The team then packaged the maps and indoor navigation functionality into a beta app which worked for iOS.</p>
+
+                          <p>The placement of the beacons in strategic areas has resulted in a 1-metre accuracy location across the entire station. Several closed tests of the app have been performed by the Virgin, Network Rail and Pointr teams.</p>
+
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="#">Virgin Trains</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="#">May 2016</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="#">Hardware Integration</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>London Bridge Multi-solution</h2>
+                          <hr class="star-primary">
+                          <img src="img/projects/pointr/4.png" class="img-responsive img-centered" alt="">
+
+                          <h3>Trial of two technologies to address station congestion:<ul><li>Low energy bluetooth devices from Pointr Labs to offer users with an indoor navigation app in London Bridge station</li><li>CCTV video analytics from Vivacity Labs on passenger flow to help London Bridge station managers and planners.</li></ul></h3>
+
+                          <p>This trial brought together several stakeholders to carry out a feasibility study at London Bridge station as part of the Thameslink Programme to understand how indoor navigation and pedestrian flow counting could help staff manage stations more effectively.</p>
+
+                          <p>The Department for Transport approached the HackTrain Accelerator asking if the programme could help solve an upcoming challenge that the Thameslink Programme would face around assisting passengers in navigating inside the station.</p>
+
+                          <p>Working closely with Go-Ahead, Vivacity, Pointr and Network Rail, the HackTrain lead a multi-stakeholder project testing the effective uses of Vivacity’s video sensor technology and Pointr’s indoor navigation app to determine if they could allow for dynamic way-finding within stations.</p>
+
+                          <p>Vivacity selected 10 spots to install their video sensors across London Bridge station whilst Pointr installed their beacons in the entire station. Both teams installed their technology across both floors in the station. The 10 installation spots were the ones of areas that would be affected most during the redevelopment programme.</p>
+
+                          <p>The HackTrain and Vivacity held several workshops with London Bridge station staff to understand the key challenges they faced with when trying to manage passenger flow in order to determine what key.</p>
+
+                          <p>Once these were identified the team took the number of passengers travelling within the station at any one time and developed a real-time heat map dashboard that the station staff had access to.</p>
+
+                          <p>Although the installation of the beacons was a very quick and seamless process, finding the right maps for the station was very difficult due to the number of changes it has already gone through.</p>
+
+                          <p>Vivacity’s sensors processed footage from the station in real time and generated a historic database during 1 week of the trial. Unfortunately their sensors had to be removed 3 weeks ahead of schedule due to a change in the date of removal of the temporary scaffold to which the sensors were mounted. To mitigate against this, Vivacity recorded several hours of footage allowing them to continue to develop the solution beyond the end of the deployment.</p>
+
+                          <p>HackTrain is putting together interactive and dynamic signage across the station in order for commuters to navigate across the station.
+
+                          <p>HackTrain paused the development of the custom signage software, and contacted the technical director of the supplier that manufactures the WISI screens to assess if it is possible to update the screens programmatically. The technical director confirmed that it is possible to update screens programmatically given as long as we stick to the communication schema and the relevant credentials.</p>
+
+                          <p>Unfortunately when received, some of the WISI screens were faulty - given that they were needed to also display information for passengers in the station, it was not possible to run trials with the limited number of WISI screens that were available.</p>
+
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="#">Go-Ahead, London Bridge Station Redevelopment Office</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="#">May 2016</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="#">Hardware Integration</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Event Finder</h2>
+                          <hr class="star-primary">
+                          <img src="img/projects/igeolise/2.png" class="img-responsive img-centered" alt="">
+
+                          <h3>Increasing off-peak train usage by enabling customers to find events and offers within a specific travel time using the operator’s lines.</h3>
+
+                          <p>Virgin Trains and GWR worked together on solving the “driving off-peak-usage” challenge. Both TOCs decided to tackle the challenge by working with iGeolise’s TravelTime API. GWR and VT wanted to create interactive experiences for customers, to inspire their customers to travel more on their network, driving off-peak-usage.</p>
+
+                          <p>The TravelTime API allows users to find destinations by time instead of by distance,  including the cost for the travel, effectively allowing them to find things to do . The API uses every mode of transport to calculate the time taken to any destination, therefore being a true multimodal journey-planning tool.</p>
+
+                          <p>Working with GWR’s web marketing team and ORM, their web agency supplier, the iGeolise team created a widget that could be inserted into the www.gwr.com/explore page with only 1 line of code.</p>
+
+                          <p>The widget was trialled for a week in the production website. After this, the trial was taken to the next steps, where GWR decided to create a BETA page to trial new innovative technologies without having customer impact.</p>
+
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="#">Virgin Trains East Coast & GWR</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="#">May 2016</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="#">Web App Integration</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Wireless Power-charging in Stations</h2>
+                          <hr class="star-primary">
+                          <img src="img/projects/powermat/4.png" class="img-responsive img-centered" alt="">
+
+                          <h3>Temporary installation of custom Powermat tables to enable GWR customers to wirelessly charge their phones on the station concourse.</h3>
+
+                          <p>The initial goal was to trial Powermat within a moving train, it fast became apparent that this would be difficult due to safety stands and regulations, despite Powermat meeting all the power consumption requirements there was no guidance on wireless charging standards and as a result Powermat was deemed too risky to trial on a live train.</p>
+
+                          <p>With this option no longer available, the team opted to run a 3-day trial at Paddington station with a large Powermat table stand.</p>
+
+                          <p>GWR managed to get approval to run the trial in Paddington station after several back and forths with the station managers, but after a few days it was finally accepted.</p>
+
+                          <p>The trial took place for the course of 3 days, where passengers had the chance to charge their phones and learn more about Powermat and the trial that GWR was leading.</p>
+
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="#">GWR</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="#">May 2016</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="#">Hardware Integration</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Staff Management</h2>
+                          <hr class="star-primary">
+                          <img src="img/projects/sirenum/2.png" class="img-responsive img-centered" alt="">
+
+                          <h3>Make GWR safer and cheaper to operate by expanding an existing staff management trial into a larger number of depots.</h3>
+
+                          <p>Although Sirenum were already delivering their solution to GWR before the accelerator their engagement with the GWR team was very low due to their lead sponsor leaving and they were looking for a new point of contact to be their new champion within the company.</p>
+
+                          <p>Working with the HackTrain, Sirenum produced a business case highlighting how their staff management tool was improving efficiency and lowering over-time costs.</p>
+
+                          <p>The initial trial included one single depot with 200 employees, taking fatigue into consideration. The results of this estimated £60,000~ in annual savings per sight. Once the business case was produced and sent to the right people GWR announced that they would be rolling out Sirenum across all of their depots in the entire network.</p>
+
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="#">GWR</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="#">May 2016</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="#">Software Adoption</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Delay Repay</h2>
+                          <hr class="star-primary">
+                          <img src="img/projects/raildelay/2.png" class="img-responsive img-centered" alt="">
+
+                          <h3>Trialing RailDelay's ticket-scanning technology with the Commercial Director of London Midland and Customer Solutions Manager at Virgin Trains East Coast.</h3>
+
+                          <p>RailDelay was one of the earliest-stage teams that took part in the HackTrain Accelerator programme. Conceived during the HackTrain Hackathon that took place in November 2015, the team joined the programme after receiving a strong amount of interest from each of the owning groups.</p>
+
+                          <p>Exploring the demand and opportunity for a delay repay solution, the team discovered that the current processes used by train operators to calculate, validate and pay delay replay claims took anywhere between 20-60 minutes to complete.</p>
+
+                          <p>The team contacted existing industry suppliers, including TOCrm and Bugle. After several discussions with TOCs, HackTrain and RailDelay developed with an innovative end-to-end solution comprising of:</p>
+                          <ul><li>Delay repay form that was automatically filled when uploading a picture of a train ticket</li>
+                          <li>A back-office app enabling staff to verify claims quickly and accurately</li>
+                          <li>Basic analytics that rejected fraudulent and invalid claims automatically</li>
+                          <li>Interaction with TOCrm</li></ul>
+
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="#">Go-Ahead & Virgin Trains East Coast</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="#">May 2016</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="#">Web App Integration</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModala" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Technology Events: Hackathons & Conferences</h2>
+                          <hr class="star-primary">
+                          <img src="img/events.png" class="img-responsive img-centered" alt="">
+
+                          <h3>We organise and run a number of technology events every year.</h3>
+                          <p>Our events draw a wide range of professionals from accross the industry. We We work with a number of different partners to deliver our events. The following annual events are available for sponsorship:</p>
+                          <ul>
+                            <li><a target="_blank" href="http://conference.hacktrain.com/">HackTrain Conference</a></li>
+                            <p>The HackTrain Conference is single-day event occuring annually in June. The conference focuses on communicating and enabling innovation in the rail industry.</p>
+                            <li><a target="_blank" href="http://uk.hacktrain.com/">HackTrain Hackathon: Europe</a></li>
+                            <p>HackTrain EU is 48-hour weekend event occuring annually in November. ~80 developers, designers and entrepreneurs take part to think of solutions and new product ideas and innovations to solve problems in the rail industry. Three different trains take the participants across the UK and mainland Europe to various locations as they test and produce their products.</p>
+                            <li><a target="_blank" href="http://hk.hacktrain.com/">HackTrain Hackathon: Hong Kong</a></li>
+                            <p>HackTrain HK is single-day event occuring annually in November. Similar to HackTrain EU, except the event takes 40 participants across Hong Kong on the Mass Transit Railway system solving Hong Kong specific transport challenges.</p>
+                          </ul>
+                          <p>If your organisation would like to sponsor one of our events or your organisation is interested in running its own <strong>bespoke hackathon</strong> event then please <a href="mailto:hello@hackpartners.com">get in touch</a>.</p>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalb" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>T.R.I.A.L.</h2>
+                          <hr class="star-primary">
+                          <img src="img/trial.png" class="img-responsive img-centered" alt="">
+
+                          <h3><strong>T</strong>echnology for <strong>R</strong>ail <strong>I</strong>nnovation and <strong>A</strong>cceleration <strong>L</strong>aboratory.</h3>
+                          <p>This service provides a fast-paced framework to solving challenges in rail. We identify your organisation's challenges, set up a sandbox environment for running trials and implement the solution in a live environment after it is proven to work.</p>
+                          <p>If you're interested in learning more about T.R.I.A.L., please <a href="mailto:hello@hackpartners.com">get in touch</a>.</p>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalc" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Industry Reports</h2>
+                          <hr class="star-primary">
+                          <img src="img/reports.png" class="img-responsive img-centered" alt="">
+
+                          <h3>We research and construct reports on technology and innovation the rail industry.</h3>
+                          <p><a target="_blank" href="http://report.hacktrain.com">The B.A.R.R.I.E.R.S. Report</a> (<strong>B</strong>ringing <strong>A</strong>ctionable <strong>R</strong>ecommendations to <strong>R</strong>evitalise <strong>I</strong>nnovation and <strong>E</strong>ntrepreneurship in the <strong>R</strong>ail <strong>S</strong>ector) is the most recent report released by the HackTrain. It studies the barriers to innovation in the rail industry and provides actionable recommendations to combat these barriers and improve innovation.</p>
+                          <p>One of the recommendations of the B.A.R.R.I.E.R.S. Report is to commission a <strong>"Data in Rail Report"</strong>, in order to better understand the state of open and closed data in the industry.</p>
+                          <p>If you'd like to learn more about commisioning a report, please <a href="mailto:hello@hackpartners.com">get in touch</a>.</p>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModald" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Consultancy Services</h2>
+                          <hr class="star-primary">
+                          <img src="img/consultancy.png" class="img-responsive img-centered" alt="">
+
+                          <h3>We help your organisation understand and grow in-line with the pace of cutting-edge technology.</h3>
+                          <p>We're helping rail innovate. Our team of digital specialists provide bespoke advice and solutions to your organisations core challenges.</p>
+                          <p>If you're interested in learning more about our consultancy services, please <a href="mailto:hello@hackpartners.com">get in touch</a>.</p>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalContact" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Contact Form</h2>
+                          <hr class="star-primary">
+                          <form id="gform" method="POST" class="pure-form pure-form-stacked"
+                          action="https://script.google.com/macros/s/AKfycbxLlm8oXDkz8qiA7nko81d2UrQuCWqQ0pin7ewFf_v1M-AMnsU/exec">
+                            <fieldset class="pure-group">
+                              <label for="firstname">First Name: </label>
+                              <input id="firstname" name="firstname" required placeholder="John"/>
+                            </fieldset>
+                            <fieldset class="pure-group">
+                              <label for="surname">Surname: </label>
+                              <input id="surname" name="surname" required placeholder="Smith"/>
+                            </fieldset>
+                            <fieldset class="pure-group">
+                              <label for="email">Email:</label>
+                              <input id="email" name="email" type="email" value=""
+                              required placeholder="youremail@companydomain.com"/>
+                              <!-- <span id="email-invalid" style="visibility:hidden">
+                                Must be a valid email address</span> -->
+                            </fieldset>
+                            <fieldset class="pure-group">
+                              <label for="company">Company: </label>
+                              <input id="company" name="company" required placeholder="Rail Limited"/>
+                            </fieldset>
+                            <fieldset class="pure-group">
+                              <label for="jobtitle">Job Title: </label>
+                              <input id="jobtitle" name="jobtitle" required placeholder="Head of Procurement"/>
+                            </fieldset>
+                            <fieldset class="pure-group">
+                              <label for="message">Message: </label>
+                              <textarea id="message" name="message" rows="5"
+                              required placeholder="Dear HackTrain, I'm reaching out to you because..."></textarea>
+                            </fieldset>
+                            <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button class="button-success pure-button button-xlarge" id="send"><i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+                          </form>
+
+                          <!-- Customise the Thankyou Message People See when they submit the form: -->
+                          <div style="display:none;" id="thankyou_message">
+                            <h4>Thanks for getting in touch. We will reply to you shortly.
+                            </h4>
+                              <br>
+                              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                          </div>
+
+                          <!-- Submit the Form to Google Using "AJAX" -->
+
+                          <!-- <script data-cfasync="false" type="text/javascript"
+                          src="/form-submission-handler.js"></script> -->
+                        <!-- END -->
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalNews" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>HackTrain Newsletter Sign-up Form</h2>
+                          <hr class="star-primary">
+
+                          <!-- <aside>
+                               <p>
+                                   We would love to hear from you! </p>
+                                   <p>Please use the <b><em>Contact Form</em></b>
+                                   to send us a message.
+                               </p>
+                           </aside> -->
+
+                        <!-- START HERE -->
+                           <!-- Style The Contact Form How Ever You Prefer -->
+
+                          <form id="gform2" method="POST" class="pure-form pure-form-stacked"
+                          action="https://script.google.com/macros/s/AKfycbzMSYWHR-hFz63ZHXsqK6eS3mgIk7bhrAT87pwWgo6gikogHzg/exec">
+                            <!-- change the form action to your script url -->
+
+                            <fieldset class="pure-group">
+                              <label for="firstname">First Name: </label>
+                              <input id="firstname" name="firstname" required placeholder="John"/>
+                            </fieldset>
+                            <fieldset class="pure-group">
+                              <label for="surname">Surname: </label>
+                              <input id="surname" name="surname" required placeholder="Smith"/>
+                            </fieldset>
+                            <fieldset class="pure-group">
+                              <label for="email">Email:</label>
+                              <input id="email" name="email" type="email" value=""
+                              required placeholder="youremail@companydomain.com"/>
+                              <!-- <span id="email-invalid" style="visibility:hidden">
+                                Must be a valid email address</span> -->
+                            </fieldset>
+                            <fieldset class="pure-group">
+                              <label for="company">Company: </label>
+                              <input id="company" name="company" required placeholder="Rail Limited"/>
+                            </fieldset>
+                            <fieldset class="pure-group">
+                              <label for="jobtitle">Job Title: </label>
+                              <input id="jobtitle" name="jobtitle" required placeholder="Head of Procurement"/>
+                            </fieldset>
+                            <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button class="button-success pure-button button-xlarge" id="send"><i class="fa fa-check"></i>&nbsp;Confirm</button>
+
+                          </form>
+
+                          <!-- Customise the Thankyou Message People See when they submit the form: -->
+                          <div style="display:none;" id="thankyou_message2">
+                            <h3>Subscription confirmed.</h3>
+                            <h4>You are now signed up to the HackTrain newsletter.</h4>
+                              <br>
+                              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                          </div>
+
+                          <!-- Submit the Form to Google Using "AJAX" -->
+
+                          <!-- <script data-cfasync="false" type="text/javascript"
+                          src="/form-submission-handler.js"></script> -->
+                        <!-- END -->
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalTeam" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div>
+                      <div class="modal-body">
+                          <hr class="star-primary">
+                          <h2 style="text-align:center">The Hack Partners</h2>
+                          <hr class="star-primary">
+
+                          <section id="team" class="team">
+                              <div class="container">
+                                  <div class="row text-center">
+                                      <div class="col-lg-10 col-lg-offset-1"><br><br>
+                                          <div style="text-align:center">
+                                            <p class="lead">
+                                              We are a team of technology and startup professionals dedicated to bringing the very best solutions that improve customer experience and operational efficiency into the rail industry. We're dedicated to making a fundamental change in rail.
+                                            </p>
+                                          </div>
+                                          <div class="row">
+                                              <div class="col-md-12 col-sm-12">
+                                                  <div class="service-item">
+                                                  <img class="team" src="img/team/river.jpg"/>
+                                                      <h4>
+                                                          <strong>River Tamoor Baig</strong>
+                                                      </h4>
+                                                      <p>CEO<br>Founder</p>
+                                                      <ul class="list-inline">
+                                                          <li>
+                                                              <a href="mailto:river@hackpartners.com"><i class="fa fa-envelope fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://twitter.com/RiverTam57"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://www.linkedin.com/in/rivertam"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                              <!-- <div class="col-md-6 col-sm-12">
+                                                  <div class="service-item">
+                                                    <img class="team" src="img/team/alejandro.jpg"/>
+                                                      <h4>
+                                                          <strong>Alejandro Saucedo</strong>
+                                                      </h4>
+                                                      <p>CTO<br>Co-founder</p>
+                                                      <ul class="list-inline">
+                                                          <li>
+                                                              <a href="mailto:alejandro@hackpartners.com"><i class="fa fa-envelope fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://twitter.com/AxSaucedo"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://www.linkedin.com/in/axsaucedo"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div> -->
+                                            </div>
+                                            <div class="row">
+
+                                              <div class="col-md-6 col-sm-12">
+                                                  <div class="service-item">
+                                                    <img class="team" src="img/team/damian.jpg"/>
+                                                      <h4>
+                                                          <strong>Damian Kysely</strong>
+                                                      </h4>
+                                                      <p>Business Development</p>
+                                                      <ul class="list-inline">
+                                                          <li>
+                                                              <a href="mailto:damian@hackpartners.com"><i class="fa fa-envelope fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://twitter.com/DamianKys"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://www.linkedin.com/in/damiankysely"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+
+
+                                              <div class="col-md-6 col-sm-12">
+                                                  <div class="service-item">
+                                                    <img class="team" src="img/team/phoebe.jpg"/>
+                                                      <h4>
+                                                          <strong>Phoebe Yiin</strong>
+                                                      </h4>
+                                                      <p>Operations & Marketing</p>
+                                                      <ul class="list-inline">
+                                                          <li>
+                                                              <a href="mailto:phoebe@hackpartners.com"><i class="fa fa-envelope fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://twitter.com/PhoebeYiin"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://www.linkedin.com/in/phoebeyiin"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="row">
+
+                                              <div class="col-md-4 col-sm-12">
+                                                  <div class="service-item">
+                                                    <img class="team" src="img/team/will.png"/>
+                                                      <h4>
+                                                          <strong>Will Slegg</strong>
+                                                      </h4>
+                                                      <p>Design Lead</p>
+                                                      <ul class="list-inline">
+                                                          <li>
+                                                              <a href="mailto:info@eatitupdesign.co.uk"><i class="fa fa-envelope fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://twitter.com/eatitupdesign"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://www.linkedin.com/in/will-slegg-040168115"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+
+                                              <div class="col-md-4 col-sm-12">
+                                                  <div class="service-item">
+                                                    <img class="team" src="img/team/sarah.jpg"/>
+                                                      <h4>
+                                                          <strong>Sarah Chok</strong>
+                                                      </h4>
+                                                      <p>Business Analyst</p>
+                                                      <ul class="list-inline">
+                                                          <li>
+                                                              <a href="mailto:sarah@hackpartners.com"><i class="fa fa-envelope fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://twitter.com/dblchklt"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://www.linkedin.com/in/sarah-chok-4600bb91"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+
+                                              <div class="col-md-4 col-sm-12">
+                                                  <div class="service-item">
+                                                    <img class="team" src="img/team/ed.png"/>
+                                                      <h4>
+                                                          <strong>Ed Maclean</strong>
+                                                      </h4>
+                                                      <p>Startup Engagement Lead</p>
+                                                      <ul class="list-inline">
+                                                          <li>
+                                                              <a href="mailto:ed@hackpartners.com"><i class="fa fa-envelope fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://twitter.com/eddabed"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="https://www.linkedin.com/in/macleaned"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+
+                                          </div>
+                                          <br>
+                                          <hr class="star-primary">
+                                          <h2>Advisory Board</h2>
+                                          <hr class="star-primary">
+                                          <br>
+                                          <div class="row">
+
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="service-item">
+                                                  <img class="team" src="img/advisors/matt.jpg"/>
+                                                    <h4>
+                                                        <strong>Matt Clifford</strong>
+                                                    </h4>
+                                                    <p>Co-Founder & Chief Executive<br>Entrepreneur First</p>
+                                                    <ul class="list-inline">
+                                                        <li>
+                                                          <a href="https://www.joinef.com/"><i class="fa fa-globe fa-fw fa-2x"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://twitter.com/matthewclifford"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/in/mattcliffordef"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="service-item">
+                                                  <img class="team" src="img/advisors/adil.png"/>
+                                                    <h4>
+                                                        <strong>Adil Mohammed</strong>
+                                                    </h4>
+                                                    <p>Technology Entrepreneur<br>Launch48 & Fabrily</p>
+                                                    <ul class="list-inline">
+                                                        <li>
+                                                          <a href="http://spotqa.com/"><i class="fa fa-globe fa-fw fa-2x"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://twitter.com/adilmd"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/in/adilmd"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="service-item">
+                                                <img class="team" src="img/advisors/toby.jpg"/>
+                                                    <h4>
+                                                        <strong>Toby Stone</strong>
+                                                    </h4>
+                                                    <p>Government Advisor & Entrepreneur<br>UK and Estonian Cabinet Office</p>
+                                                    <ul class="list-inline">
+                                                        <li>
+                                                          <a href="http://www.newsquare.io/"><i class="fa fa-globe fa-fw fa-2x"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://twitter.com/theonlytoby"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/in/tobiasstone"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                          </div>
+
+                                          <br>
+                                          <hr class="star-primary">
+                                          <h2>Open Positions</h2>
+                                          <hr class="star-primary">
+                                          <br>
+                                          <p class="lead">
+                                            We're always on the look out for the very best and motivated individuals. If you want to be the bringer of change, then join us.
+                                          </p>
+                                          <div class="row">
+
+                                            <div class="col-md-6 col-sm-12">
+                                                <div class="service-item">
+                                                  <a target="_blank" href="https://docs.google.com/document/d/17m33Rqic9GhiGZAtFjo-c5FTJtPMp1J9HJ1K22KzmNU/edit?usp=sharing"><i class="fa fa-pencil-square-o fa-fw fa-5x"></i></a>
+                                                    <h4>
+                                                        <strong>Bid Writer</strong>
+                                                    </h4>
+                                                    <p>Full-time Employee</p>
+                                                    <p>London, UK</p>
+                                                    <ul class="list-inline">
+                                                        <li>
+                                                          <!-- <a target="_blank" href="https://docs.google.com/document/d/17m33Rqic9GhiGZAtFjo-c5FTJtPMp1J9HJ1K22KzmNU/edit?usp=sharing"><i class="fa fa-search-plus fa-fw fa-2x"></i></a> -->
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-sm-12">
+                                                <div class="service-item">
+                                                  <a target="_blank" href="https://docs.google.com/document/d/1oj-hIgSfCU6SYMApP4Jx0UDcX9sis8nkmXVf5TbOunU/edit?usp=sharing"><i class="fa fa-paperclip fa-fw fa-5x"></i></a>
+                                                    <h4>
+                                                        <strong>Administrative Assistant</strong>
+                                                    </h4>
+                                                    <p>Full-time Employee</p>
+                                                    <p>London, UK</p>
+                                                    <ul class="list-inline">
+                                                        <li>
+                                                          <!-- <a target="_blank" href="https://docs.google.com/document/d/1oj-hIgSfCU6SYMApP4Jx0UDcX9sis8nkmXVf5TbOunU/edit?usp=sharing"><i class="fa fa-search-plus fa-fw fa-2x"></i></a> -->
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                          </div>
+
+
+                                          <!-- /.row (nested) -->
+                                      </div>
+                                      <!-- /.col-lg-10 -->
+                                  </div>
+                                  <!-- /.row -->
+                              </div>
+                              <br>
+                              <!-- /.container -->
+                          </section>
+
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <img src="img/rb.png"/>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="img/as.png"/>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="img/mf.png"/>
+      </div>
+  </div> -->
+
+
+
+
+  <!-- Team -->
+
+
+
+    <!-- Joining forces -->
+    <section>
+        <aside class="clients" id="forces">
+            <div class="text-vertical-center">
+                <h2>We’ve joined forces with the greatest organisations within the rail industry to drive innovation forward.</h2>
+            </div>
+        </aside>
+    </section>
+
+    <!-- Partners -->
+    <section id="partners" class="client-list">
+        <div id="client-list" class="container">
+            <div class="row text-center">
+                <div class="col-md-12"><br><br>
+                    <h2 style="color:white">Partners</h2>
+                    <hr class="small" style="padding-bottom:30px">
+
+                    <div class="row">
+                        <div class="col-md-4 col-md-12">
+                            <div class="service-item">
+                            <img class="client-list" src="img/partners/dft.png"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-12">
+                            <div class="service-item">
+                              <img class="client-list" src="img/partners/hs2.png"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-12">
+                            <div class="service-item">
+                              <img class="client-list" src="img/partners/dbis.png"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 col-md-12">
+                            <div class="service-item">
+                            <img class="client-list" src="img/partners/bae.png"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-12">
+                            <div class="service-item">
+                              <img class="client-list" src="img/partners/ey.png"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-12">
+                            <div class="service-item">
+                              <img class="client-list" src="img/partners/oc.png"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 col-md-12">
+                            <div class="service-item">
+                            <img class="client-list" src="img/partners/techcityuk.png"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-12">
+                            <div class="service-item">
+                              <img class="client-list" src="img/partners/smartrail.png"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-12">
+                            <div class="service-item">
+                              <img class="client-list" src="img/partners/novacroft.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+  <section id="clients" class="client-list" style="padding-bottom:30px">
+      <div id="client-list" class="container">
+          <div class="row text-center">
+              <div class="col-md-12"><br><br>
+                  <h2 style="color:white">Clients</h2>
+                  <hr class="small" style="padding-bottom:30px">
+                  <div class="row">
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                          <img class="client-list" src="img/clients/first.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                            <img class="client-list" src="img/clients/stagecoach.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                            <img class="client-list" src="img/clients/arriva.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                          <img class="client-list" src="img/clients/go-ahead.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                            <img class="client-list" src="img/clients/nx.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                            <img class="client-list" src="img/clients/sr.png"/>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                          <img class="client-list" src="img/clients/trainline.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                            <img class="client-list" src="img/clients/atoc.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                            <img class="client-list" src="img/clients/eversholt.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                          <img class="client-list" src="img/clients/nomad-digital.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                            <img class="client-list" src="img/partners/mtr-sq.png"/>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <div class="service-item">
+                            <img class="client-list" src="img/clients/bloomberg.png"/>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- /.row (nested) -->
+              </div>
+              <!-- /.col-lg-10 -->
+          </div>
+          <!-- /.row -->
+      </div>
+      <!-- /.container -->
+  </section>
+
+  <!-- Map -->
+  <section class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.75545249982!2d-0.08923526724086733!3d51.52692810079731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca5c5a5c0b9%3A0x2e878c589c963592!2sHack+Partners!5e0!3m2!1sen!2suk!4v1473689776148"></iframe>
+      <br />
+      <small>
+          <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.75545249982!2d-0.08923526724086733!3d51.52692810079731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca5c5a5c0b9%3A0x2e878c589c963592!2sHack+Partners!5e0!3m2!1sen!2suk!4v1473689776148"></a>
+      </small>
+      </iframe>
+  </section>
+
+  <section id="contact" class="call-to-action bg-primary">
+      <div class="container">
+          <div class="row text-center">
+              <div class="col-md-12">
+                  <!-- <h2 style="color:white">Get in Touch</h2> -->
+                  <!-- <hr class="small" style="padding-bottom:30px"> -->
+                  <div class="row">
+                      <div class="col-md-4 col-xs-12">
+                          <div>
+                            <a class="page-scroll" href="#myCarousel">
+                              <img height="105px" src="img/logo.png"/>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                          <div>
+                            <h4>Hack Partners</h4>
+                            <p>WeWork Old St.<br>18 - 21 Corsham Street<br>London, N1 6DR<br>United Kingdom</p>
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-xs-12">
+                          <div>
+                          </div>
+                      </div>
+                      <!-- <div class="col-md-2 col-xs-12">
+                          <div>
+                            <a id="contactform" href="#portfolioModalContact" data-toggle="modal">
+                              <h4>Contact Us</h4>
+                            </a>
+                            <a id="mailicon" href="#portfolioModalContact" data-toggle="modal">hello@hackpartners.com</a>
+                            <br><br>
+                            <a id="mailicon" href="#portfolioModalNews" data-toggle="modal">Sign-up to our Newsletter</a>
+                          </div>
+                      </div> -->
+                      <div class="col-md-2 col-xs-12">
+                          <div>
+                            <a id="contactform" href="mailto:hello@hackpartners.com" data-toggle="modal">
+                              <h4>Contact Us</h4>
+                            </a>
+                            <a id="mailicon" href="mailto:hello@hackpartners.com" data-toggle="modal">hello@hackpartners.com</a>
+                            <br><br>
+                            <!-- <a id="mailicon" href="#portfolioModalNews" data-toggle="modal">Sign-up to our Newsletter</a> -->
+                          </div>
+                      </div>
+                  </div>
+                  <br><hr class="star-primary"><br>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                      <p style="text-align:left" class="text-muted">Copyright © 2016 Hack Partners Limited. All rights reserved. HackTrain is a registered trademark of Hack Partners Limited.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                    </div>
+                    <div style="text-align:left" class="col-md-2 col-sm-12">
+                      <ul class="list-inline">
+                          <li>
+                              <a href="https://fb.com/thehacktrain"><i id="socialmedia" class="fa fa-facebook fa-fw fa-2x"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://twitter.com/thehacktrain"><i id="socialmedia" class="fa fa-twitter fa-fw fa-2x"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://instagram.com/thehacktrain"><i id="socialmedia" class="fa fa-instagram fa-fw fa-2x"></i></a>
+                          </li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+              <!-- /.col-lg-10 -->
+          </div>
+          <!-- /.row -->
+      </div>
+      <!-- /.container -->
+  </section>
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+    <script data-cfasync="false" type="text/javascript" src="js/gform.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="js/gform2.js"></script>
+
+</body>
+
+</html>
